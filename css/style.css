@@ -178,7 +178,6 @@ img {
 
 .typewriter {
     font-family: "Caveat", cursive;
-
     text-shadow: none;
     font-size: 1.5em;
     white-space: nowrap;
@@ -232,7 +231,18 @@ img {
         opacity: 1;
     }
 }
+@media (max-width: 900px) {
+    .typewriter {
+        font-size: 1.4em;
+        width: 15ch;
+    }
+    .typewriter .creator {
 
+    left: 10px;
+   
+}
+
+}
 /* =================================================== */
 
 .card .links {
