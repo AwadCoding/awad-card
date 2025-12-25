@@ -24,6 +24,7 @@
     --icon-tiktok: #1b1b1b;
     --icon-youtube: #ff0000;
     --icon-instagram: #e1306c;
+    --icon-academy: #00fa9a;
     /* skills icon */
     --icon-html: #e34f26;
     --icon-css: #264de4;
@@ -302,6 +303,10 @@ img {
 
 .fa-brands.instagram {
     color: var(--icon-instagram);
+}
+
+.fa-solid.fa-graduation-cap {
+    color: var(--icon-academy);
 }
 
 /* responsive for mobile section social icons */
